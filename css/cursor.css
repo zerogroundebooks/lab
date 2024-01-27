@@ -1,9 +1,9 @@
-body {
+header {
   margin: 0;
   cursor: none;
 }
 
-body:hover #custom-cursor {
+header:hover #custom-cursor {
   opacity: 1;
 }
 main {
