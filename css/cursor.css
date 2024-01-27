@@ -6,6 +6,14 @@ body {
 body:hover #custom-cursor {
   opacity: 1;
 }
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0E67AD;
+}
+
 #custom-cursor {
   width: 2px;
   height: 2px;
