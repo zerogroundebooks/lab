@@ -1,9 +1,9 @@
-slides {
+slide__img {
   margin: 0;
   cursor: none;
 }
 
-slides:hover #custom-cursor {
+slide__img:hover #custom-cursor {
   opacity: 1;
 }
 main {
