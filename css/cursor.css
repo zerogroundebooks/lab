@@ -1,9 +1,9 @@
-header {
+slides {
   margin: 0;
   cursor: none;
 }
 
-header:hover #custom-cursor {
+slides:hover #custom-cursor {
   opacity: 1;
 }
 main {
