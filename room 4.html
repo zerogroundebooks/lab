@@ -19,28 +19,7 @@
          	window.scrollTo(0, 1);
          }
       </script>
-      <style>
-         /* Estilo del cursor */
-             .custom-cursor {
-               position: fixed;
-               top: 0;
-               left: 0;
-               width: 20px;
-               height: 20px;
-               background-color: #c99090;
-               border-radius: 50%;
-               pointer-events: none;
-               z-index: 9999;
-               opacity: 0.5;
-               transition: transform 0.3s ease;
-             }
-    
-       /* Cambiar el estilo cuando el cursor esté sobre un enlace */
-             a:hover .custom-cursor {
-               transform: scale(1.5);
-               opacity: 1;
-             }
-         </style>
+     
       <!--//meta tags ends here-->
       <!--booststrap-->
       <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
@@ -65,8 +44,7 @@
       <link href="//fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
    </head>
    <body>
-      <!-- Cursor-->
-      <div class="custom-cursor"></div>
+      
       <!--headder-->
       <div class="header-outs">
          <div class="header-w3layouts">
@@ -204,18 +182,7 @@
          <!--bootstrap working-->
          <script src="js/bootstrap.min.js"></script>
          <!-- //bootstrap working-->
-         <!-- Cursor -->
-      <script>
-         document.addEventListener("DOMContentLoaded", function() {
-         // Obtener el elemento del cursor personalizado
-         const customCursor = document.querySelector(".custom-cursor");
-
-         // Actualizar la posición del cursor con el desplazamiento de la página
-         window.addEventListener("mousemove", function(event) {
-             customCursor.style.left = event.pageX + "px";
-             customCursor.style.top = event.pageY + "px";
-           });
-        });
-        </script>
+         
+      
    </body>
 </html>
